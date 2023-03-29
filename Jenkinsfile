@@ -10,7 +10,7 @@ pipeline{
         stage('2-keep working'){
             steps{
                 echo "we are great engineers"
-                sh 'cat/etc/passwd'
+                sh 'cat /etc/passwd'
             }
         }
         stage('3-keep moving'){
